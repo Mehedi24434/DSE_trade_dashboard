@@ -168,11 +168,16 @@ RETURN IF(CountBreakout = 0, "No Breakout Today", "Breakouts Today: " & CountBre
 
 ## 🖼️ Dashboard Preview
 
-| Overview                                             | Utility                                                 |
-| ---------------------------------------------------- | ------------------------------------------------------- |
-| ![Dashboard Overview](images/Dashboard_overview.png) | ![Selected Ticker Utility](images/Selected_utility.png) |
+### 📊 Summary Dashboard Overview
+![Dashboard Overview](images/Dashboard_overview.png)
 
 ---
+
+### 🧩 Selected Ticker Utility
+![Selected Ticker Utility](images/Selected_utility.png)
+
+---
+
 
 ## ▶ How to Run Locally
 
