@@ -20,7 +20,6 @@ Trading-Dashboard/
     └── Selected_utility.png
 
 
----
 ```
 
 ## ⚙️ Project Overview
