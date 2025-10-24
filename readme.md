@@ -28,7 +28,7 @@ Trading-Dashboard/
 2. **Update per-ticker historical CSVs** under `Scrapped_data/daily/`.  
    - If a ticker didn’t trade today, fill a new row using the previous close (`volume = 0`, `trade = 0`) within a 7-day window.  
    - Replace zero `open`, `high`, or `low` values with the previous `close`.  
-3. **Compute analytics** in R:
+3. **Compute analytics** in R:  
    - 250-day breakouts  
    - Bullish/Bearish signals (EMA(10) vs SMA(10))  
    - 20-day returns (“monthly” proxy)  
@@ -71,7 +71,7 @@ Trading-Dashboard/
 - **`calc_20day_return(ticker)`** → `(close_today / close_20days_ago) - 1`  
 - **`calc_daily_return(ticker)`** → `(close_today / close_prev_day) - 1`  
 
-Final output: `trade_data.csv`, used directly in Power BI.
+**Final output:** `trade_data.csv`, used directly in Power BI.
 
 ---
 
