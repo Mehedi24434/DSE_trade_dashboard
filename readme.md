@@ -1,27 +1,24 @@
-```markdown
-# 📈 Live Trading Dashboard (DSE) — End-to-End (R → Power BI)
+# 📊 Live Trading Dashboard (DSE)
+**_End-to-End Pipeline (R → Power BI)_**
 
-> A daily, reproducible pipeline that scrapes Day-End data from the Dhaka Stock Exchange (DSE), processes historical CSVs with R, produces a single `trade_data.csv`, and visualizes daily analytics in a Power BI dashboard (`.pbix`).
+> A daily, reproducible pipeline that scrapes Day-End data from the Dhaka Stock Exchange (DSE), updates per-ticker history, computes analytics, and visualizes performance in Power BI.
 
 ---
 
-## 📂 Repository Structure
-
-```
-
+## 🗂️ Repository Structure
+```plaintext
 Trading-Dashboard/
 ├── README.md
-├── trade_dashboard.pbix                # Power BI dashboard (optional; large files can be .gitignored)
-├── daily_task.ipynb                    # Notebook orchestrating daily updates (calls R script)
-├── data_updater.R                      # Core R scraper & data updater
+├── trade_dashboard.pbix               # Power BI dashboard (optional; can be .gitignored)
+├── daily_task.ipynb                   # Notebook orchestrating daily updates (calls R script)
+├── data_updater.R                     # Core R scraper & data updater
 ├── Scrapped_data/
-│   └── daily/                          # Per-ticker historical CSVs updated daily
-├── trade_data.csv                      # Consolidated dataset consumed by Power BI
-├── images/
-│   ├── Dashboard_overview.png
-│   └── Selected_utility.png
+│   └── daily/                         # Per-ticker historical CSVs updated daily
+├── trade_data.csv                     # Consolidated dataset consumed by Power BI
+└── images/
+    ├── Dashboard_overview.png
+    └── Selected_utility.png
 
-````
 
 ---
 
