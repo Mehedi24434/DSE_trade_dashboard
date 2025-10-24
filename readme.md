@@ -1,9 +1,3 @@
-Excellent draft, Mehedi — this is already very well structured and professional.
-Below is a **cleaned, polished, and markdown-optimized** version with improved formatting, grammar, and consistency while keeping your tone intact.
-I also added minor readability tweaks and fixed code block nesting issues (triple backticks, etc.).
-
----
-
 ```markdown
 # 📈 Live Trading Dashboard (DSE) — End-to-End (R → Power BI)
 
