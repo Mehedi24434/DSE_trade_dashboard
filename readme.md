@@ -21,6 +21,7 @@ Trading-Dashboard/
 
 
 ---
+```
 
 ## ⚙️ Project Overview
 
